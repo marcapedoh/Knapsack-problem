@@ -74,7 +74,7 @@ function regenerateItems(){
       <div class="max-w-7xl mx-auto flex justify-between items-center">
         <div class="text-lg a-title">Genetic Knapsack problem</div>
         <div class="text-sm text-center">A genetic algorithm to solve the knapsack problem</div>
-        <div class="text-sm">by <a href="https://github.com/marcapedoh/knapsack-problem" target="_blank" class="text-blue-500" rel="noopener noreferrer">Marc</a> &nbsp; inspired by<a href="https://github.com/CorentinTh" target="_blank" class="text-blue-500" rel="noopener noreferrer">CorentinTh</a></div>
+        <div class="text-sm">by <a href="https://github.com/marcapedoh/knapsack-problem" target="_blank" class="text-blue-500" rel="noopener noreferrer">Marc</a> &nbsp; inspired by &nbsp;<a href="https://github.com/CorentinTh" target="_blank" class="text-blue-500" rel="noopener noreferrer">CorentinTh</a></div>
       </div>
     </div>
 
