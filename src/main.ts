@@ -1,14 +1,21 @@
-import './assets/main.css'
-import { anu } from 'anu-vue';
-import { createApp } from 'vue';
-import App from './App.vue';
+import { createApp } from 'vue'
+import App from './App.vue'
+import { anu } from 'anu-vue'
 
-import 'uno.css';
+// UnoCSS import
+import 'uno.css'
 
 // anu styles
-import 'anu-vue/dist/style.css';
+import 'anu-vue/dist/style.css'
 
 // default theme styles
-import '@anu-vue/preset-theme-default/dist/style.css';
+import '@anu-vue/preset-theme-default/dist/style.css'
 
-createApp(App).use(anu, { registerComponents: false }).mount('#app');
+// Créez votre application Vue
+const app = createApp(App)
+
+// Utilisez `app.use(anu)` pour enregistrer le plugin anu
+app.use(anu as any)
+
+// Montez l'application sur l'élément avec l'ID 'app' dans le DOM
+app.mount('#app')

@@ -78,7 +78,7 @@ onMounted(()=>{
 </script>
 
 <template>
-  <ACard class="pa-6">
+  <ACard class="pa-6" title="" subtitle="" text="" color="primary">
     <div class="a-title mb-4">{{title}}</div>
     <div>
       <canvas ref="chartCanvasEl" class="w-full"></canvas>

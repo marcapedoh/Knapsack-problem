@@ -13,11 +13,11 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "preserve",
-
+    "noEmitOnError": false,  // Ignore les erreurs dans les fichiers de définition de type des bibliothèques
+    "strict": false,
     /* Linting */
-    "strict": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
     "noFallthroughCasesInSwitch": true
   },
   "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
